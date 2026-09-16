@@ -15,15 +15,22 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-~~~
+```
 def remove(s):
-    new_string = s[:3] +s[4:]
-    print(new_string)
-~~~
+    n = int(input("Enter index to remove: "))
+    a = ""
+    for i in range(len(s)):
+        if i != n:
+            a += s[i]
+    return a
+
+string_input = input("Enter a string: ")
+print(remove(string_input))
+```
 
 ## Output
-<img width="826" height="224" alt="444367455-23c67dfc-fdfe-45b9-895a-1013cba1423f" src="https://github.com/user-attachments/assets/e8706ec5-485d-4215-8b22-f97ab6157331" />
+<img width="1917" height="766" alt="image" src="https://github.com/user-attachments/assets/105d184a-9e74-4aa5-ab26-12a307ae38bf" />
+
 
 ## Result
-Thus the program that accepts a string and removes the character at a specified index has been executed successfully.
-
+The program removes the character at the specified index n from the input string and prints the modified string.
