@@ -9,17 +9,14 @@ To write a Python program that calculates the **sum of all elements** in a list.
 3. Print the result.
 
 ## 🧾 Program
-
-~~~
-items=[1,2,-8]
-s=0
-for i in items:
-    s+=i
-print(s)
-~~~
+```
+numbers = [1, 2, 3, 4, 5]
+print(sum(numbers))
+```
 
 ## Output
-<img width="842" height="185" alt="444365157-8f741ed7-beaa-43ee-944b-06984ec5c9e2" src="https://github.com/user-attachments/assets/d5a096cd-f051-4c1f-bf71-44bd91651aa5" />
+<img width="1917" height="752" alt="image" src="https://github.com/user-attachments/assets/8327c901-0448-400b-9702-4256a1a8f420" />
+
 
 ## Result
-Thus the program that calculates the sum of all elements in a list has been executed successfully.
+Thus, the program successfully calculates and prints the sum of all elements in the list.
